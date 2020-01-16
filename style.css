@@ -1,0 +1,59 @@
+body {background: url(картиночки/фон.jpg) repeat-y;}
+p {font-size: 20 px;}
+#header {background: url(картиночки/фонбб.jpg) repeat-y; float: center;
+height: 90px;
+padding: 50px;
+text-align: center; font-size: 35px;  color: white;
+font-family: Segoe Print}
+#menu {height: 100%; float:right;
+background: #888899;
+padding: 30px; margin: 0 0 0 10px;
+font-size: 20 px; color:white; font-family: Segoe Print}
+#gris {background: url(картиночки/grisb.jpg); float: center;
+height: 350px;}
+a {color: #9900CC; text-decotation: none;} a:visited {color:6600FF; text-decotation: none;}
+p.cc {background: #DDDDFF; font-style: italic; padding: 5px; border: 2px solid #BBBBFF;}
+#m {background: #DDDDFF; padding: 5px; text-align: center; font-family: Segoe Print; font-size: 14px;} 
+#gs {background: #DDDDFF; padding: 2px; text-align: right; font-family: Segoe Print; font-size: 13px;}
+
+a.menu {color: white; text-decotation: none;}
+audio {width: 100%;}
+p, h2, h3, ul  {font-family: Segoe UI;}
+
+
+.slider{ width:920px; margin:auto; clear:both;}
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flexslider {width: 100%; margin: 0; padding: 0 0 0 0;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+.flex-direction-nav li a {width:65px; height:37px; margin:0; display: block; position: absolute; top:0px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; right:0px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;right:65px;}
+.flex-direction-nav li a.next:hover {background:url(images/next_a.png) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(images/prev_a.png) no-repeat center;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+.flex-caption{  position: absolute;left:0px; top:150px; width:920px;font-family: 'Source Sans Pro', sans-serif;text-align:center; font-size:14px; color:#FFFFFF;}
+
+.flex-caption h2{ font-size:30px; color:#FFFFFF; padding-top: 100px;} 
+.flex-caption p{ text-align:center; padding:0 200px; padding-top: 100px;}
+a.slider_button{border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;background-color:#f98740; color:#fff; font-size:14px; padding:8px 12px; margin:20px 0 0 0; display:inline-block;}
